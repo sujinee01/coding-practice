@@ -1,1 +1,1 @@
-# ssts_module_marco
+# coding practice

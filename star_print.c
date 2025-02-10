@@ -4,13 +4,12 @@ int main(void)
 {
     int i = 0;
     
-    for (; i<6; i++) {
-        for(int j=0; j=<i; j++) {
+    for (; i < 6; i++) {
+        for (int j = 0; j < i; j++) {
             printf("%c", '*');
         }
-        printf("/n");
+        printf("\n");
     }
-
 
     return 0;
 }
