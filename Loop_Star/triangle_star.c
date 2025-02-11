@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int i = 0;
-    
-    for (; i < 6; i++) {
-        for(int j; j=<i/2; j++)
+int main(void) {
+    int i, j, k;
+
+    for (i = 0; i < 6; i++) { 
+        for (j = 0; j < i / 2; j++) { 
             printf(" ");
-            if (j>i/2)
-                for(;j=<i;j++) {
-                    printf("*")
-            else (
-                for(int k; k=<i/2; k++)
-                printf(" ");
-            )
-            }
+        }
+
+        for (k = 0; k < i; k++) { 
+            printf("*");
+        }
+
+        printf("\n"); 
     }
 
     return 0;
